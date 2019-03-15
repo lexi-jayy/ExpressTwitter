@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Express Project</title>
+
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Search Tweets</h1>
+                    <form id="form" action="/" method="post">
+                        <div class="form-group">
+            				<input id="search" type="text" class="form-control" placeholder="Search...">
+            			</div>
+            			<button type="submit" class="btn btn-danger">Search</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12" id="tweetCard">
+                </div>
+            </div>
+
+        </div>
+        <script type="text/javascript" src="/jquery"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
